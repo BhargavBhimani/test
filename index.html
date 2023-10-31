@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Show Mobile Height and Width</title>
+</head>
+
+<body>
+    <p>Screen Width: <span id="screenWidth"></span></p>
+    <p>Screen Height: <span id="screenHeight"></span></p>
+
+    <script>
+        // Get the screen width and height
+        var screenWidth = window.screen.width;
+        var screenHeight = window.screen.height;
+
+        // Display the screen width and height
+        document.getElementById("screenWidth").textContent = screenWidth + " pixels";
+        document.getElementById("screenHeight").textContent = screenHeight + " pixels";
+    </script>
+</body>
+
+</html>
